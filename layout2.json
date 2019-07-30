@@ -103,7 +103,7 @@
                     "initialSync": "true"
                 }
             }
-        },https://github.com/shamim-keyvalue/ipaas
+        },
         {
             "stepName": "Final step",
             "stepId": "completed",
