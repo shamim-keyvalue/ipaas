@@ -1,0 +1,138 @@
+{
+    "logo": "/third_party/cn-activecampaign.png",
+    "integDispName": "ActiveCampaign",
+    "subStepList": [{
+            "stepName": "Connect",
+            "stepId": "connect",
+            "apiEndPoint": {
+                "type": "GET",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "938"
+                },
+                "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/init",
+                "input": {
+                    "type": "activecampaign",
+                    "chargebeeElement": "1017",
+                    "thirdPartyElement": "1016",
+                    "formulaConnect": "939",
+                    "formulaCreate": "940",
+                    "siteDomain": "predev3.in",
+                    "formulaValidate": "882",
+                    "formulaMapping": "881",
+                    "formulaMappingProceed": "880",
+                    "formulaSync": "896",
+                    "activeCampaignCreateSetup":"937",
+                    "activeCampaignValidateSetup": "946",
+                    "activeCampaignValidateProceedSetup": "948",
+                    "activeCampaignValidateProceedFinal": "947",
+                    "activeCampaignMappingSetup": "942",
+                    "activeCampaignMappingProceedSetup": "943",
+                    "activeCampaignInitialSyncRunSetup": "950",
+                    "ActiveCampaignProcessingCardSetup": "944",
+                    "ActiveCampaignSyncRunSetup": "945",
+                    "ActiveCampaignUnlinkSetup": "949"
+
+                }
+            }
+        },
+        {
+            "stepName": "Data Validation",
+            "stepId": "step_1",
+            "apiEndPoint": {
+                "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/validate",
+                "type": "GET",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "946"
+                },
+                "input": {
+                    "type": "activecampaign",
+                    "siteDomain": "predev3.in",
+                    "retry":"false"
+                }
+            },
+          "backStepApiEndPoint": {
+            "type":"GET",
+            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json"
+          }
+        },
+        {
+            "stepName": "Configure Sync Preferences ",
+            "stepId": "step_2",
+            "apiEndPoint": {
+                "type": "GET",
+                "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/mapping",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "942"
+                },
+                "input": {
+                    "type": "activecampaign",
+                    "siteDomain": "predev3.in",
+                    "op": "new"
+                }
+            },
+            "editConfig": {
+                "title": "Manage how Chargebee syncs data with ActiveCampaign",
+                "display": "Manage sync rules",
+                "apiEndPoint": {
+                    "type": "GET",
+                    "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/mapping",
+                    "headers": {
+                        "Elements-Formula-Instance-Id": "942"
+                    },
+                    "input": {
+                        "type": "activecampaign",
+                        "siteDomain": "predev3.in",
+                        "op": "edit"
+                    }
+                }
+            }
+        },
+        {
+            "stepName": "Run Initial Sync",
+            "stepId": "step_3",
+            "apiEndPoint": {
+                "type": "GET",
+                "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/initialsync/run",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "950"
+                },
+                "input": {
+                    "type": "activecampaign",
+                    "siteDomain": "predev3.in",
+                    "action": "default",
+                    "initialSync": "true"
+                }
+            }
+        },https://github.com/shamim-keyvalue/ipaas
+        {
+            "stepName": "Final step",
+            "stepId": "completed",
+            "apiEndPoint": {
+                "type": "GET",
+                "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/processing-card",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "944"
+                },
+                "input": {
+                    "type": "activecampaign",
+                    "siteDomain": "predev3.in"
+
+                }
+
+            },
+
+
+             "fullSyncApiEndPoint": {
+                "type":"GET",
+                "apiUrl":"https://api.cloud-elements.co.uk/elements/api-v2/sync/run",
+                "headers": {
+                    "Elements-Formula-Instance-Id": "945"
+                },
+                "input": {
+                    "type": "activecampaign",
+                    "siteDomain": "predev3.in"
+                }
+             }
+        }
+    ]
+}
