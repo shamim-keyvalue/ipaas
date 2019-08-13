@@ -124,9 +124,9 @@
 
              "fullSyncApiEndPoint": {
                 "type":"GET",
-                "apiUrl":"https://api.cloud-elements.co.uk/elements/api-v2/sync/run",
+                "apiUrl":"https://api.cloud-elements.co.uk/elements/api-v2/autoSync",
                 "headers": {
-                    "Elements-Formula-Instance-Id": "945"
+                    "Elements-Formula-Instance-Id": "972"
                 },
                 "input": {
                     "type": "activecampaign",
