@@ -76,13 +76,14 @@
                 "display": "Manage sync rules",
                 "apiEndPoint": {
                     "type": "GET",
-                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/mapping",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/manageSyncRules",
                     "headers": {
-                        "Elements-Formula-Instance-Id": "390913"
+                        "Elements-Formula-Instance-Id": "393177"
                     },
                     "input": {
                         "type": "activecampaign",
                         "siteDomain": "chargebee-labs.com",
+                        "integrationName" : "pipedrive",
                         "op": "edit"
                     }
                 }
