@@ -78,7 +78,7 @@
                     "type": "GET",
                     "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup",
                     "headers": {
-                        "Elements-Formula-Instance-Id": "388733"
+                        "Elements-Formula-Instance-Id": "398475"
                     },
                     "input": {
                         "type": "activecampaign",
