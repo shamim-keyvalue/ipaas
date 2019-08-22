@@ -12,7 +12,7 @@
                 "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/init",
                 "input": {
                     "type": "activecampaign",
-                    "chargebeeElement": "1017",
+                    "chargebeeElement": "1060",
                     "thirdPartyElement": "1016",
                     "formulaConnect": "939",
                     "formulaCreate": "940",
