@@ -16,7 +16,6 @@
                     "thirdPartyElement": "1016",
                     "formulaConnect": "939",
                     "formulaCreate": "940",
-                   
                     "formulaValidate": "882",
                     "formulaMapping": "881",
                     "formulaMappingProceed": "880",
@@ -51,8 +50,14 @@
                 }
             },
           "backStepApiEndPoint": {
-            "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json"
+             "type": "GET",
+              "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/activecampaign/goback",
+              "headers": {
+               "Elements-Formula-Instance-Id": "1458"
+           },
+          "input": {         
+             "integrationName": "activecampaign"
+           }
           }
         },
         {
@@ -66,7 +71,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                 
+                    
                     "op": "new"
                 }
             },
@@ -81,11 +86,21 @@
                     },
                     "input": {
                         "type": "activecampaign",
-                       
+                        
                         "op": "edit"
                     }
                 }
-            }
+            },
+            "backStepApiEndPoint": {
+             "type": "GET",
+             "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/activecampaign/goback",
+             "headers": {
+               "Elements-Formula-Instance-Id": "1458"
+             },
+           "input": {         
+          "integrationName": "activecampaign"
+        }
+          }
         },
         {
             "stepName": "Run Initial Sync",
@@ -98,11 +113,21 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    
+                 
                     "action": "default",
                     "initialSync": "true"
                 }
-            }
+            },
+            "backStepApiEndPoint": {
+             "type": "GET",
+        "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/activecampaign/goback",
+        "headers": {
+          "Elements-Formula-Instance-Id": "1458"
+        },
+        "input": {         
+          "integrationName": "activecampaign"
+        }
+          }
         },
         {
             "stepName": "Final step",
@@ -130,7 +155,7 @@
                 },
                 "input": {
                     "type": "activecampaign"
-               
+                   
                 }
              }
         }
