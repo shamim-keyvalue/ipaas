@@ -16,7 +16,6 @@
                     "thirdPartyElement": "1016",
                     "formulaConnect": "939",
                     "formulaCreate": "940",
-                    "siteDomain": "predev3.in",
                     "formulaValidate": "882",
                     "formulaMapping": "881",
                     "formulaMappingProceed": "880",
@@ -46,7 +45,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "predev3.in",
+              
                     "retry":"false"
                 }
             },
@@ -66,7 +65,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "predev3.in",
+                    
                     "op": "new"
                 }
             },
@@ -81,7 +80,7 @@
                     },
                     "input": {
                         "type": "activecampaign",
-                        "siteDomain": "predev3.in",
+                        
                         "op": "edit"
                     }
                 }
@@ -98,7 +97,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "predev3.in",
+                 
                     "action": "default",
                     "initialSync": "true"
                 }
@@ -114,8 +113,8 @@
                     "Elements-Formula-Instance-Id": "944"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "predev3.in"
+                    "type": "activecampaign"
+                 
 
                 }
 
@@ -129,8 +128,8 @@
                     "Elements-Formula-Instance-Id": "972"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "predev3.in"
+                    "type": "activecampaign"
+                   
                 }
              }
         }
