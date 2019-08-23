@@ -16,7 +16,7 @@
                     "thirdPartyElement": "1016",
                     "formulaConnect": "939",
                     "formulaCreate": "940",
-                    "siteDomain": "stagingcb.com",
+                   
                     "formulaValidate": "882",
                     "formulaMapping": "881",
                     "formulaMappingProceed": "880",
@@ -46,7 +46,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "stagingcb.com",
+              
                     "retry":"false"
                 }
             },
@@ -66,7 +66,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "stagingcb.com",
+                 
                     "op": "new"
                 }
             },
@@ -81,7 +81,7 @@
                     },
                     "input": {
                         "type": "activecampaign",
-                        "siteDomain": "stagingcb.com",
+                       
                         "op": "edit"
                     }
                 }
@@ -98,7 +98,7 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "stagingcb.com",
+                    
                     "action": "default",
                     "initialSync": "true"
                 }
@@ -114,8 +114,8 @@
                     "Elements-Formula-Instance-Id": "944"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "stagingcb.com"
+                    "type": "activecampaign"
+                 
 
                 }
 
@@ -129,8 +129,8 @@
                     "Elements-Formula-Instance-Id": "972"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "stagingcb.com"
+                    "type": "activecampaign"
+               
                 }
              }
         }
