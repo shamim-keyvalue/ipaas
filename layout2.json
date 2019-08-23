@@ -50,8 +50,14 @@
                 }
             },
           "backStepApiEndPoint": {
-            "type":"GET",
-            "apiUrl":"https://raw.githubusercontent.com/cb-Vinothini/ipaas_local/master/connect_resp.json"
+             "type": "GET",
+        "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/activecampaign/goback",
+        "headers": {
+          "Elements-Formula-Instance-Id": "1458"
+        },
+        "input": {         
+          "integrationName": "activecampaign"
+        }
           }
         },
         {
