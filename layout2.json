@@ -90,7 +90,17 @@
                         "op": "edit"
                     }
                 }
-            }
+            },
+            "backStepApiEndPoint": {
+             "type": "GET",
+        "apiUrl": "https://api.cloud-elements.co.uk/elements/api-v2/activecampaign/goback",
+        "headers": {
+          "Elements-Formula-Instance-Id": "1458"
+        },
+        "input": {         
+          "integrationName": "activecampaign"
+        }
+          }
         },
         {
             "stepName": "Run Initial Sync",
