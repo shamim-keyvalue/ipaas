@@ -95,7 +95,7 @@
                 "type": "GET",
                 "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/initialsync/run",
                 "headers": {
-                    "Elements-Formula-Instance-Id": "390914"
+                    "Elements-Formula-Instance-Id": "399175"
                 },
                 "input": {
                     "type": "activecampaign",
