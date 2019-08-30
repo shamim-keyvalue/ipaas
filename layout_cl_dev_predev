@@ -47,7 +47,6 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "chargebee-labs.com",
                     "retry":"false"
                 }
             },
@@ -67,7 +66,6 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "chargebee-labs.com",
                     "op": "new"
                 }
             },
@@ -82,7 +80,6 @@
                     },
                     "input": {
                         "type": "activecampaign",
-                        "siteDomain": "chargebee-labs.com",
                         "op": "edit"
                     }
                 }
@@ -99,7 +96,6 @@
                 },
                 "input": {
                     "type": "activecampaign",
-                    "siteDomain": "chargebee-labs.com",
                     "action": "default",
                     "initialSync": "true"
                 }
@@ -115,8 +111,7 @@
                     "Elements-Formula-Instance-Id": "386930"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "chargebee-labs.com"
+                    "type": "activecampaign"
                     
                 }
             
@@ -130,8 +125,7 @@
                     "Elements-Formula-Instance-Id": "399247"
                 },
                 "input": {
-                    "type": "activecampaign",
-                    "siteDomain": "chargebee-labs.com"
+                    "type": "activecampaign"
                 }
              }
         }
