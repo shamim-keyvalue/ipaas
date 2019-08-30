@@ -30,7 +30,7 @@
                     "activeCampaignMappingProceedSetup": "376934",
                     "activeCampaignInitialSyncRunSetup": "399175",
                     "ActiveCampaignProcessingCardSetup": "386930",
-                    "ActiveCampaignSyncRunSetup": "390912",
+                    "ActiveCampaignSyncRunSetup": "399247",
                     "ActiveCampaignUnlinkSetup": "377707"
                    
                 }
@@ -127,7 +127,7 @@
                 "type":"GET",
                 "apiUrl":"https://staging.cloud-elements.com/elements/api-v2/sync/run",
                 "headers": {
-                    "Elements-Formula-Instance-Id": "390912"
+                    "Elements-Formula-Instance-Id": "399247"
                 },
                 "input": {
                     "type": "activecampaign",
