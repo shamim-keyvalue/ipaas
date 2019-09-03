@@ -76,9 +76,9 @@
                 "display": "Manage sync rules",
                 "apiEndPoint": {
                     "type": "GET",
-                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/pipedrive/syncRulesDealsSetup",
+                    "apiUrl": "https://staging.cloud-elements.com/elements/api-v2/mapping",
                     "headers": {
-                        "Elements-Formula-Instance-Id": "398475"
+                        "Elements-Formula-Instance-Id": "390913"
                     },
                     "input": {
                         "type": "activecampaign",
